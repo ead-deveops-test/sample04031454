@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Product
+metadata:
+  name: "sample04031447"
+  confluencePageId: "296163778"
+  confluenceSpaceId: ~GuangYi.Ong
+  confluencePageTitle: "Brain CT Segmentation 04031447"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
+  projectInfo:
+    projectName: "Brain CT Segmentation"
+    moduleName: "sample04031447"
+    informationAuthor: user:guest
+    modality: "CT"
+    bodyParts: "Brain"
+    processingPurpose: "Segmentation"
+    protocol: "Non CE"
+    algorithmType: "Deep Learning"
+    packageType: "DLL, VAF"
+    supportedOs: "Windows, Linux"
+    sourceCodeLanguage: 
+    developmentStatus: "Completed"
+    linkToProjectPage: "http://localhost:3000/create/templates/default/example-product-template"
